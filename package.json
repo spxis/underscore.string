@@ -3,6 +3,7 @@
     "version": "3.0.1",
     "description": "String manipulation extensions for Underscore.js javascript library. Forked from the underscore.string library at https://github.com/epeli/underscore.string.",
     "homepage": "https://github.com/spxis/underscore.string/",
+    "author": "John Morris <npm@spxis.com> (http://spxis.com)",
     "contributors": [
         "Esa-Matti Suuronen <esa-matti@suuronen.org> (http://esa-matti.suuronen.org/)",
         "Edward Tsech <edtsech@gmail.com>",
@@ -12,7 +13,7 @@
         "Pete Kruckenberg (<https://github.com/kruckenb>)",
         "Paul Chavard <paul@chavard.net> (<http://tchak.net>)",
         "Ed Finkler <coj@funkatron.com> (<http://funkatron.com>)",
-        "John Morris <john@spxis.com> (<http://spxis.com>)"
+        "John Morris <npm@spxis.com> (<http://spxis.com>)"
     ],
     "keywords": [
         "underscore",
