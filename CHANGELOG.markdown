@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 3.0.1
+
+* Add `substitute` based on method from MooTools Core
+
 ### 3.0.0
 
 * Each function is now extracted to individual CommonJS modules

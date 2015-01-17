@@ -361,22 +361,26 @@ $(document).ready(function() {
     deepEqual(_(undefined).pred(), '');
   });
 
-  test('String: succ', function(){
-    equal(_('a').succ(), 'b');
-    equal(_('A').succ(), 'B');
-    equal(_('+').succ(), ',');
-    equal(_(1).succ(), '2');
-    deepEqual(_().succ().length, 0);
-    deepEqual(_('').succ().length, 0);
-    deepEqual(_(null).succ().length, 0);
-    deepEqual(_(undefined).succ().length, 0);
-    deepEqual(_().succ(), '');
-    deepEqual(_('').succ(), '');
-    deepEqual(_(null).succ(), '');
-    deepEqual(_(undefined).succ(), '');
-  });
+    test('String: succ', function(){
+        equal(_('a').succ(), 'b');
+        equal(_('A').succ(), 'B');
+        equal(_('+').succ(), ',');
+        equal(_(1).succ(), '2');
+        deepEqual(_().succ().length, 0);
+        deepEqual(_('').succ().length, 0);
+        deepEqual(_(null).succ().length, 0);
+        deepEqual(_(undefined).succ().length, 0);
+        deepEqual(_().succ(), '');
+        deepEqual(_('').succ(), '');
+        deepEqual(_(null).succ(), '');
+        deepEqual(_(undefined).succ(), '');
+    });
 
-  test('String: titleize', function(){
+    test('String: substitute', function(){
+        equal(_('this {methodName} string method').substitute({methodName: 'substitute'}), 'this substitute string method');
+    });
+
+    test('String: titleize', function(){
     equal(_('the titleize string method').titleize(), 'The Titleize String Method');
     equal(_('the titleize string  method').titleize(), 'The Titleize String  Method');
     equal(_('').titleize(), '', 'Titleize empty string returns empty string');

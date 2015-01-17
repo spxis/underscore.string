@@ -69,11 +69,15 @@
     return alphabet;
   });
 
-  JSLitmus.test('titleize', function(){
-    return _('the titleize string method').titleize();
-  });
+    JSLitmus.test('substitute', function(){
+        return _('this {methodName} string method').substitute({methodName: 'substitute'});
+    });
 
-  JSLitmus.test('truncate', function(){
+    JSLitmus.test('titleize', function(){
+        return _('the titleize string method').titleize();
+    });
+
+    JSLitmus.test('truncate', function(){
     return _('Hello world').truncate(5);
   });
 

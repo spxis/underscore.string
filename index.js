@@ -13,7 +13,7 @@ function s(value) {
   this._wrapped = value;
 }
 
-s.VERSION = '3.0.0';
+s.VERSION = '3.0.1';
 
 s.isBlank          = require('./isBlank');
 s.stripTags        = require('./stripTags');
@@ -39,6 +39,7 @@ s.startsWith       = require('./startsWith');
 s.endsWith         = require('./endsWith');
 s.pred             = require('./pred');
 s.succ             = require('./succ');
+s.substitute       = require('./substitute');
 s.titleize         = require('./titleize');
 s.camelize         = require('./camelize');
 s.underscored      = require('./underscored');
@@ -86,6 +87,7 @@ s.contains  = s.include;
 s.q         = s.quote;
 s.toBool    = s.toBoolean;
 s.camelcase = s.camelize;
+s.sub       = s.substitute;
 
 
 // Implement chaining

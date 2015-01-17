@@ -304,6 +304,16 @@ succ('A')
 ```
 
 
+#### substitute(string) => string
+
+Returns the substitution to str.
+
+```javascript
+substitution('this is a {name}!', { name: 'test' })
+// => 'this is a test!'
+```
+
+
 #### titleize(string) => string
 
 ```javascript
