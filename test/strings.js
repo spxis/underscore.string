@@ -378,6 +378,7 @@ $(document).ready(function() {
 
     test('String: substitute', function(){
         equal(_('this {methodName} string method').substitute({methodName: 'substitute'}), 'this substitute string method');
+        equal(_('this {methodName} returns nothing').substitute({}), 'this  returns nothing');
     });
 
     test('String: titleize', function(){

@@ -309,7 +309,7 @@ succ('A')
 Returns the substitution to str.
 
 ```javascript
-substitution('this is a {name}!', { name: 'test' })
+substitute('this is a {name}!', { name: 'test' })
 // => 'this is a test!'
 ```
 
