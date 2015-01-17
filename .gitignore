@@ -4,3 +4,21 @@
 .tmp_*
 node_modules
 dist/*
+
+# Jetbrains and JIRA
+.idea/
+.idea_modules/
+*.ipr
+*.iml
+*.iws
+atlassian-ide-plugin.xml
+
+# OSX related
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spolight-V100
+.Trashes
+
