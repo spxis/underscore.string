@@ -1,6 +1,18 @@
 
 # Changelog
 
+## 3.0.5
+
+* Fixed bower issues.
+
+## 3.0.4
+
+* Fixed npm issues.
+
+## 3.0.3
+
+* Minor home page changes.
+
 ## 3.0.2
 
 * Minor changes and code cleanup
