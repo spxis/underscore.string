@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 3.0.6
+
+* Fixed tagging related issues.
+
 ## 3.0.5
 
 * Fixed bower issues.
