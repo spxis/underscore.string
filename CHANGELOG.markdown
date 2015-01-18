@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 3.0.2
+
+* Minor changes and code cleanup
+
 ## 3.0.1
 
 * Add `substitute` based on method from MooTools Core

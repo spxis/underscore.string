@@ -13,7 +13,7 @@ function s(value) {
   this._wrapped = value;
 }
 
-s.VERSION = '3.0.1';
+s.VERSION = '3.0.2';
 
 s.isBlank          = require('./isBlank');
 s.stripTags        = require('./stripTags');
