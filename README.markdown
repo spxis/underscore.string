@@ -14,7 +14,7 @@ library nowadays.
 
 Upgrading from 2.x to 3.x? Please read the [changelog][c].
 
-[c]: https://github.com/epeli/underscore.string/blob/master/CHANGELOG.markdown#300
+[c]: https://github.com/spxis/underscore.string.spxis/blob/master/CHANGELOG.markdown#300
 
 ## Usage 
 
@@ -22,12 +22,12 @@ Upgrading from 2.x to 3.x? Please read the [changelog][c].
 
 Install from npm
 
-    npm install underscore.string
+    npm install underscore.string.spxis
 
 Require individual functions
 
 ```javascript
-var slugify = require("underscore.string/slugify");
+var slugify = require("underscore.string.spxis/slugify");
 
 slugify("Hello world!")
 // => hello-world
@@ -36,7 +36,7 @@ slugify("Hello world!")
 or load the full library to enable chaining
 
 ```javascript
-var s = require("underscore.string");
+var s = require("underscore.string.spxis");
 s("   epeli  ").trim().capitalize().value();
 // => "Epeli"
 ```
@@ -68,8 +68,8 @@ are dropped because they collide with the functions already defined by Underscor
 
 ## Download
 
-  * [Development version](https://raw.github.com/epeli/underscore.string/master/dist/underscore.string.js) *Uncompressed with Comments*
-  * [Production version](https://github.com/epeli/underscore.string/raw/master/dist/underscore.string.min.js) *Minified*
+  * [Development version](https://raw.github.com/spxis/underscore.string.spxis/master/dist/underscore.string.js) *Uncompressed with Comments*
+  * [Production version](https://github.com/spxis/underscore.string.spxis/raw/master/dist/underscore.string.min.js) *Minified*
 
 ## API
 
