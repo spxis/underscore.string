@@ -1,6 +1,6 @@
 {
     "name": "underscore.string.spxis",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "String manipulation extensions for Underscore.js javascript library. Forked from the underscore.string library at https://github.com/epeli/underscore.string.",
     "homepage": "https://github.com/spxis/underscore.string/",
     "author": "John Morris <npm@spxis.com> (http://spxis.com)",
